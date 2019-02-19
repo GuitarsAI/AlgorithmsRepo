@@ -1,5 +1,5 @@
 nodejs-legacy
-npm
+#npm
 default-jdk
 octave
 gnuplot
