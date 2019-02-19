@@ -91,6 +91,7 @@
 
 ## IP address on which to listen (KG_IP env var)
 #c.KernelGatewayApp.ip = '127.0.0.1'
+c.KernelGatewayApp.ip = '*'
 
 ## The kernel manager class to use.
 #c.KernelGatewayApp.kernel_manager_class = 'kernel_gateway.services.kernels.manager.SeedingMappingKernelManager'
