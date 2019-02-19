@@ -2,6 +2,7 @@ name: SoS-GuitarsAI
 channels:
   - conda-forge
   - damianavila82
+  - anaconda
   - defaults
 dependencies:
   - pip
