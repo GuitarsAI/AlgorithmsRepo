@@ -4,8 +4,9 @@ channels:
   - defaults
 dependencies:
   - numpy
+  -xeus
+  - xeus-cling
   - pip:
-    - xeus-cling
     - octave_kernel
     - bash_kernel
     - sos
