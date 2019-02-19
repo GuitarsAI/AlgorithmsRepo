@@ -4,7 +4,6 @@ octave
 gnuplot
 octave-symbolic
 octave-miscellaneous
-gnuplot
 ghostscript
 texlive-latex-base
 texlive-latex-recommended
