@@ -7,5 +7,7 @@ dependencies:
   - pip:
     - xeus
     - xeus-cling
+    - octave_kernel
+    - bash_kernel
 prefix: /home/feraubuntu/anaconda3/envs/SoS
 
