@@ -16,8 +16,9 @@ mkdir temp_for_zip_extract
 unzip ijava-1.2.0.zip -d temp_for_zip_extract
 cd temp_for_zip_extract
 python3 install.py --sys-prefix
-
 cd ~/
+rm -rf temp_for_zip_extract
+
 python -m bash_kernel.install
 
 python -m sos_notebook.install
