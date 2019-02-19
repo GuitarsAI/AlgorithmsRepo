@@ -1,1 +1,2 @@
-python3 -m sos_notebook.install
+npm install -g ijavascript
+ijsinstall
