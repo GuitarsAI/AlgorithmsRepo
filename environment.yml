@@ -1,6 +1,7 @@
-name: SoS
+name: SoS-GuitarsAI
 channels:
   - conda-forge
+  - damianavila82
   - defaults
 dependencies:
   - pip
@@ -16,6 +17,13 @@ dependencies:
   - xeus
   - xeus-cling
   - octave_kernel
+  - rise
+  - bokeh
+  - nbserverproxy
+  - pandas
+  - scipy
+  - nodejs=9
+  
   - pip:
     - octave_kernel
     - bash_kernel
@@ -28,9 +36,7 @@ dependencies:
     - bash-kernel
     - pixiedust
     - pixiedust-node
-    - pandas
     - jupyter_contrib_nbextensions
-    - RISE
     - feather-format
     - julia
     - xlrd
