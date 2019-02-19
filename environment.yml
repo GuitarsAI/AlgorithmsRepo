@@ -30,6 +30,7 @@ dependencies:
     - bash_kernel
     - sos
     - sos-notebook
+    - sos-r
     - markdown
     - sos-javascript
     - sos-matlab
