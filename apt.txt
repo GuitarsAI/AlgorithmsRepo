@@ -2,3 +2,5 @@ nodejs-legacy
 npm
 ipython
 ipython-notebook
+default-jdk
+octave
