@@ -5,6 +5,7 @@ channels:
 dependencies:
   - ipykernel
   - numpy
+  - matplotlib
   - ipykernel
   - ipython
   - ipython_genutils
