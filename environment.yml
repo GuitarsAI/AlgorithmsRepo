@@ -5,6 +5,7 @@ channels:
 dependencies:
   - ipykernel
   - numpy
+  - seaborn
   - matplotlib
   - ipykernel
   - ipython
