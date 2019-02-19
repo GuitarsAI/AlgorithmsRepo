@@ -23,6 +23,7 @@ dependencies:
   - pandas
   - scipy
   - nodejs=9
+  - jupyter_kernel_gateway
   
   - pip:
     - octave_kernel
