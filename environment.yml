@@ -22,6 +22,5 @@ dependencies:
     - sos-matlab
     - sos-python
     - bash-kernel
-    
 prefix: /home/feraubuntu/anaconda3/envs/SoS
 
