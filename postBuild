@@ -1,5 +1,3 @@
-python2 -m ipykernel install --user
-
 npm install -g ijavascript
 ijsinstall
 
