@@ -22,6 +22,9 @@ python -m bash_kernel.install
 
 python -m sos_notebook.install
 
+jupyter contrib nbextension install --user
+jupyter-nbextension install rise --py --sys-prefix
+
 jupyter trust MergeSortRep.ipynb
 
 
