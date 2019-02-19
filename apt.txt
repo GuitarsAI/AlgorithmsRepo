@@ -12,4 +12,7 @@ texlive-science
 texlive-latex-extra
 texlive-fonts-recommended
 dvipng
+git
+curl
+unzip
 
