@@ -24,5 +24,8 @@ dependencies:
     - sos-matlab
     - sos-python
     - bash-kernel
+    - pixiedust
+    - pixiedust-node
+    - pandas
 prefix: /home/feraubuntu/anaconda3/envs/SoS
 
