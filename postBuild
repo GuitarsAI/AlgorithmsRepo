@@ -36,4 +36,5 @@ unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 
 jupyter trust MergeSortRep.ipynb
 
-#jupyter kernelgateway --KernelGatewayApp.api='kernel_gateway.notebook_http' --KernelGatewayApp.seed_uri='MergeSortRep.ipynb'
+jupyter kernelgateway --KernelGatewayApp.api='kernel_gateway.notebook_http' --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=9127 --KernelGatewayApp.seed_uri=MergeSortRep.ipynb --KernelGatewayApp.allow_origin='*'
+
