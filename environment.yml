@@ -4,8 +4,10 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - octave
   - pip:
-    - astunparse==1.6.2
+    - octave
+    - octave_kernel
+    - sos
+    - sos-notebook
 prefix: /home/feraubuntu/anaconda3/envs/SoS
 
