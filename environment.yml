@@ -3,9 +3,16 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+- ipykernel
   - numpy
-  -xeus
+  - ipykernel
+  - ipython
+  - ipython_genutils
+  - ipywidgets
+  - cling
+  - xeus
   - xeus-cling
+  - octave_kernel
   - pip:
     - octave_kernel
     - bash_kernel
@@ -13,5 +20,8 @@ dependencies:
     - sos-notebook
     - sos-javascript
     - sos-matlab
+    - sos-python
+    - bash-kernel
+    
 prefix: /home/feraubuntu/anaconda3/envs/SoS
 
