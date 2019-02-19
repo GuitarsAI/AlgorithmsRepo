@@ -19,6 +19,7 @@ dependencies:
     - bash_kernel
     - sos
     - sos-notebook
+    - markdown
     - sos-javascript
     - sos-matlab
     - sos-python
