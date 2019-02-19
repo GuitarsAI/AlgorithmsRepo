@@ -9,5 +9,9 @@ dependencies:
     - xeus-cling
     - octave_kernel
     - bash_kernel
+    - sos
+    - sos-notebook
+    - sos-javascript
+    - sos-matlab
 prefix: /home/feraubuntu/anaconda3/envs/SoS
 
