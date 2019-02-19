@@ -8,16 +8,20 @@ npm install && node install.js
 npm run build
 npm run build-ext
 
+cd ~/
 mkdir temp_for_zip_extract
 unzip ijava-1.2.0.zip -d temp_for_zip_extract
 cd temp_for_zip_extract
 python3 install.py --sys-prefix
 
+cd ~/
 python -m bash_kernel.install
 
 python2 -m pip install ipykernel
 python2 -m ipykernel install --user
 
 python -m sos_notebook.install
+
+jupyter trust MergeSortRep.ipynb
 
 
