@@ -15,4 +15,9 @@ python3 install.py --sys-prefix
 
 python -m bash_kernel.install
 
+python2 -m pip install ipykernel
+python2 -m ipykernel install --user
+
+python -m sos_notebook.install
+
 
