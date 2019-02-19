@@ -1,9 +1,5 @@
 nodejs-legacy
 npm
-ipython
-ipython-notebook
 default-jdk
 octave
 gnuplot
-sos-python
-sos-bash
