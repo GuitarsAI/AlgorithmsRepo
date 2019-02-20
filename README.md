@@ -20,7 +20,7 @@ For the requirements for this project to run, please check the following files a
 # MyBinder
 
 Launch Binder to Interact with the notebooks in a live environment in the cloud:
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/GuitarsAI/ComputerAidedMusicology/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GuitarsAI/AlgorithmsRepo/master)
 
 # Acknowledgements
 
