@@ -20,6 +20,7 @@ python3 install.py --sys-prefix
 cd ~/aux
 rm -rf temp_for_zip_extract
 
+cd ~/
 python -m bash_kernel.install
 
 python -m sos_notebook.install
