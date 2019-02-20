@@ -1,3 +1,3 @@
 install.packages("rmarkdown")
-source("https://bioconductor.org/biocLite.R")
-biocLite("biomaRt")
+#source("https://bioconductor.org/biocLite.R")
+#biocLite("biomaRt")
