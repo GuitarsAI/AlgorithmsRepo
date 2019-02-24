@@ -10,12 +10,13 @@ Linkedin: https://www.linkedin.com/in/renato-profeta-6b678831/ <br>
 Youtube: https://www.youtube.com/channel/UCyAyQAu_PTX5h1Ni4q0ShHQ
 
 # Youtube Playlist
-https://www.youtube.com/playlist?list=PL6QnpHKwdPYiXGSVolZa-DrvW02aw0Lio <br>
+https://www.youtube.com/playlist?list=PL6QnpHKwdPYjSd70K-CNqYp9oGplJYbVM <br>
 
 # Content
+- Merge Sort: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GuitarsAI/AlgorithmsRepo/master?filepath=MergeSortRep.ipynb)
 
 # Requirements
-For the requirements for this project to run, please check the following files at the 'binder' a dn 'aux' folders.
+For the requirements for this project to run, please check the following files at the 'binder' and 'aux' folders.
   
 # MyBinder
 
