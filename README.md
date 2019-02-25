@@ -17,7 +17,7 @@ https://www.youtube.com/playlist?list=PL6QnpHKwdPYjSd70K-CNqYp9oGplJYbVM <br>
 - Mean (Average): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GuitarsAI/AlgorithmsRepo/master?filepath=MeanRep.ipynb)
 
 # Requirements
-For the requirements for this project to run, please check the following files at the 'binder' and 'aux' folders.
+For the requirements for this project to run, please check the files in the 'binder' and 'aux' folders.
   
 # MyBinder
 
