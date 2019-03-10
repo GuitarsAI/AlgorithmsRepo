@@ -18,7 +18,7 @@ unzip ijava-1.2.0.zip -d temp_for_zip_extract
 cd temp_for_zip_extract
 python3 install.py --sys-prefix
 cd ~/aux
-rm -rf temp_for_zip_extract
+#rm -rf temp_for_zip_extract
 
 cd ~/
 python -m bash_kernel.install
