@@ -37,8 +37,5 @@ jupyter kernelgateway --generate-config
 
 unzip ~/aux/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 
-#jupyter trust MergeSortRep.ipynb
-#jupyter trust MeanRep.ipynb
-#jupyter trust MovingAverageJavascript.ipynb
 jupyter trust *.ipynb
 
