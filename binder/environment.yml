@@ -3,6 +3,7 @@ channels:
   - conda-forge
   - damianavila82
   - anaconda
+  - QuantStack 
   - defaults
 dependencies:
   - pip
@@ -17,6 +18,10 @@ dependencies:
   - cling
   - xeus
   - xeus-cling
+  - xplot
+  - xwidgets
+  - widgetsnbextension
+  - bqplot
   - octave_kernel
   - rise
   - bokeh
