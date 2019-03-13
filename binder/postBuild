@@ -9,8 +9,7 @@ cd opencv
 cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local ..
 make
 make install
-cd ~/Cpp
-rm -rf opencv
+
 
 cd ~/
 npm install plotly-notebook-js
