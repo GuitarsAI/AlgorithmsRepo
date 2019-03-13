@@ -4,9 +4,10 @@ ijsinstall
 #Install OpenCV
 cd ~/Cpp
 mkdir opencv
+mkdir OpenCVLib
 tar -xvzf OpenCV 4.0.0-alpha.tar.gz -C ./opencv
 cd opencv
-cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local ..
+cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=~/Cpp/OpenCVLib ..
 make
 make install
 
