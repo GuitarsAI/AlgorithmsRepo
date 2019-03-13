@@ -1,6 +1,8 @@
 npm install -g ijavascript
 ijsinstall
 
+mkdir java
+
 #Install OpenCV
 cd ~/Cpp
 mkdir opencv
@@ -27,7 +29,7 @@ cd ~/aux
 mkdir temp_for_zip_extract
 unzip ijava-1.2.0.zip -d temp_for_zip_extract
 cd temp_for_zip_extract
-python3 install.py --sys-prefix
+python3 install.py --sys-prefix --classpath 
 cd ~/aux
 rm -rf temp_for_zip_extract
 
@@ -37,7 +39,7 @@ python -m bash_kernel.install
 python -m sos_notebook.install
 
 jupyter contrib nbextension install --user
-jupyter-nbextension install rise --py --sys-prefix
+jupyter-nbextension install rise --py --sys-prefix --param classpath:/home/feraubuntu/java/
 
 
 # run matplotlib once to generate the font cache
