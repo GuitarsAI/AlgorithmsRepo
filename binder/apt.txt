@@ -30,6 +30,6 @@ libpng-dev
 libtiff-dev 
 libjasper-dev 
 libdc1394-22-dev
- build-essential
+libopencv-dev
 
 
