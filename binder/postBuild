@@ -22,6 +22,7 @@ mkdir -p ~/.ipython/kernels/nodejs/
 npm install && node install.js
 npm run build
 npm run build-ext
+jupyter console --kernel nodejs
 
 cd ~/
 npm install -g ijavascript
