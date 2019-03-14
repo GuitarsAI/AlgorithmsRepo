@@ -1,9 +1,3 @@
-PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig
-export PKG_CONFIG_PATH
-
-npm install -g ijavascript
-ijsinstall
-
 mkdir java
 
 #Install OpenCV
@@ -18,16 +12,23 @@ exit
 cd ~/Cpp
 rm -rf opencv-opencv-e7c915a
 
-cd ~/
-npm install plotly-notebook-js
+PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig
+export PKG_CONFIG_PATH
 
-cd aux
+cd ~/aux
 git clone https://github.com/notablemind/jupyter-nodejs.git
 cd jupyter-nodejs
 mkdir -p ~/.ipython/kernels/nodejs/
 npm install && node install.js
 npm run build
 npm run build-ext
+
+cd ~/
+npm install -g ijavascript
+ijsinstall
+
+cd ~/
+npm install plotly-notebook-js
 
 cd ~/aux
 mkdir temp_for_zip_extract
