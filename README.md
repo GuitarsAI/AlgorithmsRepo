@@ -1,4 +1,4 @@
-# Algorithms
+# Algorithms: JavaScript
 Tutorials and Implementations of Algorithms in Pyhon, Javascript, Java and C++
 
 **Renato Profeta**, Guitars.AI, Technische Universität Ilmenau <br>
