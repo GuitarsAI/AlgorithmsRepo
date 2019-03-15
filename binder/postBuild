@@ -1,13 +1,10 @@
-# Install ijavascript kernel
-npm install -g ijavascript
-ijsinstall
+# Install SoS Extensions
+python -m sos_notebook.install
 
-# Install Plotly Notebook JS
-npm install plotly-notebook-js
+#jupyter labextension install jupyterlab-sos
+
+# Jupyter Lab Extensions
+#jupyter labextension install bqplot
 
 # Install ipywidgest JupyterLab Exxtensions
 #jupyter labextension install @jupyter-widgets/jupyterlab-manager
-
-# Install SoS Extensions
-python -m sos_notebook.install
-#jupyter labextension install jupyterlab-sos
