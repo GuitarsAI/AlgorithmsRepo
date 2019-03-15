@@ -1,4 +1,4 @@
-# Algorithms: JavaScript
+# Algorithms: Java
 Tutorials and Implementations of Algorithms in Java
 
 **Renato Profeta**, Guitars.AI, Technische Universität Ilmenau <br>
