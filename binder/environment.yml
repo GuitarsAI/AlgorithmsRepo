@@ -1,4 +1,4 @@
-ame: Cpp-GuitarsAI
+name: Cpp-GuitarsAI
 channels:
   - conda-forge
   - damianavila82
