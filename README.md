@@ -18,7 +18,7 @@ https://www.youtube.com/playlist?list=PL6QnpHKwdPYjSd70K-CNqYp9oGplJYbVM <br>
 - Convolution 1D: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GuitarsAI/AlgorithmsRepo/JavaScript?filepath=Convolution1DJavascript.ipynb)
 - Moving Average Filter (Convolution 1D): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GuitarsAI/AlgorithmsRepo/JavaScript?filepath=JavascriptMovingAverage.ipynb)
 - Convolution 2D: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GuitarsAI/AlgorithmsRepo/JavaScript?filepath=Convolution2DJavascript.ipynb)
-- Image Edge Detection Filter 8Convolution 2D): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GuitarsAI/AlgorithmsRepo/JavaScript?filepath=EdgeDetectionJavascript.ipynb)
+- Image Edge Detection Filter (Convolution 2D): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GuitarsAI/AlgorithmsRepo/JavaScript?filepath=EdgeDetectionJavascript.ipynb)
 
 
 # Requirements
