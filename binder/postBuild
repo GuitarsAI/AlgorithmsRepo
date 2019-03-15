@@ -1,13 +1,7 @@
-# Install ijavascript kernel
-npm install -g ijavascript
-ijsinstall
-
-# Install Plotly Notebook JS
-npm install plotly-notebook-js
-
-# Install ipywidgest JupyterLab Exxtensions
-#jupyter labextension install @jupyter-widgets/jupyterlab-manager
-
-# Install SoS Extensions
-python -m sos_notebook.install
-#jupyter labextension install jupyterlab-sos
+cd ~/java
+mkdir temp_for_zip_extract
+unzip ijava-1.2.0.zip -d temp_for_zip_extract
+cd temp_for_zip_extract
+python3 install.py --classpath ~/java/ --sys-prefix
+cd ~/java
+rm -rf temp_for_zip_extract
