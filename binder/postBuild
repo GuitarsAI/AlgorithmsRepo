@@ -1,48 +1,13 @@
-mkdir java
-
-
-
-cd ~/aux
-git clone https://github.com/notablemind/jupyter-nodejs.git
-cd jupyter-nodejs
-mkdir -p ~/.ipython/kernels/nodejs/
-npm install && node install.js
-npm run build
-npm run build-ext
-
-
-cd ~/
+# Install ijavascript kernel
 npm install -g ijavascript
 ijsinstall
 
-cd ~/
+# Install Plotly Notebook JS
 npm install plotly-notebook-js
 
-cd ~/aux
-mkdir temp_for_zip_extract
-unzip ijava-1.2.0.zip -d temp_for_zip_extract
-cd temp_for_zip_extract
-python3 install.py --sys-prefix --param classpath:~/home/java
-cd ~/aux
-rm -rf temp_for_zip_extract
+# Install ipywidgest JupyterLab Exxtensions
+#jupyter labextension install @jupyter-widgets/jupyterlab-manager
 
-cd ~/
-python -m bash_kernel.install
-
+# Install SoS Extensions
 python -m sos_notebook.install
-
-jupyter contrib nbextension install --user
-jupyter-nbextension install rise --py --sys-prefix --param classpath:/home/feraubuntu/java/
-
-
-# run matplotlib once to generate the font cache
-python -c "import matplotlib as mpl; mpl.use('Agg'); import pylab as plt; fig, ax = plt.subplots(); fig.savefig('test.png')"
-	
-test -e test.png && rm test.png
-
-jupyter kernelgateway --generate-config
-
-unzip ~/aux/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
-
-jupyter trust *.ipynb
-
+#jupyter labextension install jupyterlab-sos
