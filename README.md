@@ -1,5 +1,5 @@
 # Algorithms: JavaScript
-Tutorials and Implementations of Algorithms in Pyhon, Javascript, Java and C++
+Tutorials and Implementations of Algorithms in Javascript
 
 **Renato Profeta**, Guitars.AI, Technische Universität Ilmenau <br>
 Homepage: http://www.rptecnologias.com/ <br>
@@ -15,23 +15,19 @@ https://www.youtube.com/playlist?list=PL6QnpHKwdPYjSd70K-CNqYp9oGplJYbVM <br>
 # Content
 - Merge Sort: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GuitarsAI/AlgorithmsRepo/master?filepath=MergeSortRep.ipynb)
 - Mean (Average): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GuitarsAI/AlgorithmsRepo/master?filepath=MeanRep.ipynb)
-- Convolution 1D: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GuitarsAI/AlgorithmsRepo/master?filepath=Convolution1D.ipynb)
-- Moving Average Filter
-  - Introduction and Python Implementation: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GuitarsAI/AlgorithmsRepo/master?filepath=MovingAverageIntroPython.ipynb)
-  - Javascript Implementation: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GuitarsAI/AlgorithmsRepo/master?filepath=MovingAverageJavascript.ipynb)
-  - C++ Implementation: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GuitarsAI/AlgorithmsRepo/master?filepath=MovingAverageFilterCplus.ipynb)
-  - Java Implementation: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GuitarsAI/AlgorithmsRepo/master?filepath=MovingAverageJava.ipynb)
-- Convolution 2D: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GuitarsAI/AlgorithmsRepo/master?filepath=Convolution2D.ipynb)
+- Convolution 1D: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GuitarsAI/AlgorithmsRepo/JavaScript?filepath=Convolution1DJavascript.ipynb)
+- Moving Average Filter (Convolution 1D): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GuitarsAI/AlgorithmsRepo/JavaScript?filepath=JavascriptMovingAverage.ipynb)
+- Convolution 2D: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GuitarsAI/AlgorithmsRepo/JavaScript?filepath=Convolution2DJavascript.ipynb)
+- Image Edge Detection Filter 8Convolution 2D): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GuitarsAI/AlgorithmsRepo/JavaScript?filepath=EdgeDetectionJavascript.ipynb)
 
-<sub> When not defined, notebooks have implementations in Python, Javascript, Java and C++ .</sub>
 
 # Requirements
-For the requirements for this project to run, please check the files in the 'binder' and 'aux' folders.
+For the requirements for this project , please check the files in the 'binder' and 'aux' folders.
   
 # MyBinder
 
 Launch Binder to Interact with the notebooks in a live environment in the cloud:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GuitarsAI/AlgorithmsRepo/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GuitarsAI/AlgorithmsRepo/JavaScript
 
 # Acknowledgements
 
