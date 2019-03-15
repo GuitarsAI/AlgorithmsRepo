@@ -1,54 +1,18 @@
-name: SoS-GuitarsAI
+name: JavaScript-GuitarsAI
 channels:
   - conda-forge
   - damianavila82
   - anaconda
-  - QuantStack 
   - defaults
 dependencies:
-  - pip
-  - ipykernel
-  - numpy
-  - seaborn
-  - matplotlib
-  - ipykernel
-  - ipython
-  - ipython_genutils
-  - ipywidgets
-  - cling
-  - xeus
-  - xeus-cling
-  - xplot
-  - xwidgets
-  - widgetsnbextension
-  - bqplot
-  - octave_kernel
+  - nodejs
+  - sos
   - rise
-  - bokeh
-  - nbserverproxy
-  - pandas
-  - scipy
-  - nodejs=9
-  - jupyter_kernel_gateway
-  
+  - widgetsnbextension
+  - ipywidgets
+  - jupyter_contrib_nbextensions
+  - jupyter_nbextensions_configurator
   - pip:
-    - octave_kernel
-    - bash_kernel
-    - sos
     - sos-notebook
-    - sos-r
-    - markdown
     - sos-javascript
-    - sos-matlab
     - sos-python
-    - bash-kernel
-    - pixiedust
-    - pixiedust-node
-    - jupyter_contrib_nbextensions
-    - feather-format
-    - julia
-    - xlrd
-    - openpyxl
-    
-prefix: /home/feraubuntu/anaconda3/envs/SoS
-
