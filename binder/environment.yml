@@ -1,18 +1,23 @@
-name: JavaScript-GuitarsAI
+ame: Cpp-GuitarsAI
 channels:
   - conda-forge
   - damianavila82
   - anaconda
+  - QuantStack
   - defaults
 dependencies:
-  - nodejs
+  - xeus-cling
+  - xwidgets
+  - xplot
+  - bqplot
   - sos
-  - rise
+  - rise 
   - widgetsnbextension
   - ipywidgets
   - jupyter_contrib_nbextensions
   - jupyter_nbextensions_configurator
+  - opencv
+  - libopencv
   - pip:
     - sos-notebook
-    - sos-javascript
     - sos-python
