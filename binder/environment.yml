@@ -1,18 +1,18 @@
-name: JavaScript-GuitarsAI
+name: Java-GuitarsAI
 channels:
   - conda-forge
   - damianavila82
   - anaconda
   - defaults
 dependencies:
-  - nodejs
+  - openjdk
   - sos
   - rise
   - widgetsnbextension
   - ipywidgets
   - jupyter_contrib_nbextensions
   - jupyter_nbextensions_configurator
+  
   - pip:
     - sos-notebook
-    - sos-javascript
     - sos-python
