@@ -1,5 +1,5 @@
-# Algorithms: JavaScript
-Tutorials and Implementations of Algorithms in Javascript
+# Algorithms: C++
+Tutorials and Implementations of Algorithms in C++
 
 **Renato Profeta**, Guitars.AI, Technische Universität Ilmenau <br>
 Homepage: http://www.rptecnologias.com/ <br>
@@ -15,10 +15,10 @@ https://www.youtube.com/playlist?list=PL6QnpHKwdPYjSd70K-CNqYp9oGplJYbVM <br>
 # Content
 - Merge Sort: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GuitarsAI/AlgorithmsRepo/master?filepath=MergeSortRep.ipynb)
 - Mean (Average): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GuitarsAI/AlgorithmsRepo/master?filepath=MeanRep.ipynb)
-- Convolution 1D: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GuitarsAI/AlgorithmsRepo/JavaScript?filepath=Convolution1DJavascript.ipynb)
-- Moving Average Filter (Convolution 1D): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GuitarsAI/AlgorithmsRepo/JavaScript?filepath=JavascriptMovingAverage.ipynb)
-- Convolution 2D: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GuitarsAI/AlgorithmsRepo/JavaScript?filepath=Convolution2DJavascript.ipynb)
-- Image Edge Detection Filter 8Convolution 2D): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GuitarsAI/AlgorithmsRepo/JavaScript?filepath=EdgeDetectionJavascript.ipynb)
+- Convolution 1D: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GuitarsAI/AlgorithmsRepo/Cpp?filepath=Convolution1DCpp.ipynb)
+- Moving Average Filter (Convolution 1D): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GuitarsAI/AlgorithmsRepo/Cpp?filepath=MovingAverageFilterCplus.ipynb)
+- Convolution 2D: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GuitarsAI/AlgorithmsRepo/Cpp?filepath=Convolution2DCpp.ipynb)
+- Image Edge Detection Filter (Convolution 2D): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GuitarsAI/AlgorithmsRepo/Cpp?filepath=EdgeDetectionCpp.ipynb)
 
 
 # Requirements
