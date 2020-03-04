@@ -7,7 +7,7 @@ channels:
   - defaults
 dependencies:
   - xeus-cling
-  - xwidgetss
+  - xwidgets
   - xplot
   - bqplot
   - sos
