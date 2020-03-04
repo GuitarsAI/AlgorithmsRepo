@@ -66,4 +66,4 @@ Script of Scripts (SoS): https://vatlab.github.io/sos-docs/
 [www.rptecnologias.com](http://www.rptecnologias.com)
 <br>
 guitars.ai@rptecnologias.com
-
+Instagram: Guitars.AI
